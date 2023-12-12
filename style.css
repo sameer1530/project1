@@ -1,0 +1,141 @@
+body{
+
+    background-color: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.list ul{
+    padding-left: 0px;
+}
+
+.list ul li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 5px 20px 5px 10px;
+    
+   
+}
+
+.list ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+header center p{
+    font-weight: 600;
+    font-size:3pc;
+    position: relative;
+    top: -3pc;
+    font-family: 'Trebuchet MS', sans-serif;
+   color: rgba(213, 221, 241, 0.731);
+   text-shadow: 0 0 20px black;
+}
+
+.search input{
+    position: relative;
+    top: 11px;
+    left: 10px;
+    background-color:transparent;
+    font-size: larger;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.search i{
+    right: 10px;
+    top: -10px;
+    position: relative;
+    color: white;
+    float: right;
+}
+.sec{
+    width: 100%;
+    height: 10%;
+}
+
+.search{
+    height: 45px;
+    width: 420px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    box-shadow: 0 0 30px  white;
+    transition: 1s;
+}
+
+.search:hover{
+    transition: 1s;
+    border-radius: 5px;
+    box-shadow: 0 0 50px  white;
+}
+
+.s1 .img{
+    border-radius: 30px;
+    transition: 1s;
+    box-shadow: 0 0 35px rgb(172, 162, 162);
+    margin-top: 60px;
+
+}
+
+.s1 .img:hover{
+    transition: 1s;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    
+}
+
+.play1{
+    position: absolute;
+    border-radius: 70px;
+    top: 50pc;
+    left: 28pc;
+    
+}
+
+.play2{
+    position: absolute;
+    border-radius: 70px;
+    top: 78pc;
+    left: 28pc;
+    
+}
+
+.play3{
+    position: absolute;
+    border-radius: 70px;
+    top: 105pc;
+    left: 28pc;
+    
+}
+
+.play4{
+    position: absolute;
+    border-radius: 70px;
+    top: 136pc;
+    left: 28pc;
+    
+}
+
+.s1 p{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+video{
+    box-shadow: 0 0 30px white;
+    border-radius: 30px;
+}
+
+.lor{
+    height: auto;
+    width: 50%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
